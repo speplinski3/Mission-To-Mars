@@ -123,7 +123,6 @@ def mars_hemispheres(browser):
     # Store findings into a dictionary and append to list
         hemispheres = {}
         hemispheres['img_url'] = f'https://marshemispheres.com/{img_url}'
-        hemispheres['title'] = title
         hemisphere_image_urls.append(hemispheres)
     
     # Browse back to repeat
